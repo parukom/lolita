@@ -13,7 +13,7 @@ body {
     align-items: center;
 
     font-family: sans-serif;
-    background-image: url(./img/pexels-fwstudio-164005.jpg);
+    background-image: url(./img/backgroundTable.jpg);
     background-size: cover;
 }
 
@@ -50,7 +50,7 @@ body {
     border-left: 3px solid powderblue;
 }
 .cover{
-    background-image: url(./img/pexels-eva-elijas-7605211.jpg);
+    background-image: url(./img/menuCover.jpg);
     background-size: cover;
 
 }
@@ -91,7 +91,7 @@ button {
     border: none;
     background-color: transparent;
     cursor: pointer;
-    transition: transform 0.5s;
+    transition: transform 1.5s;
 }
 
 button:focus{

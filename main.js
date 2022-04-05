@@ -21,6 +21,7 @@ let currentLocation = 1;
 let numOfPapers = 5;
 let maxLocation = numOfPapers + 1;
 
+
 function openBook() {
     book.style.transform = "translateX(50%)";
     prevBtn.style.transform = "translateX(-180px)";
@@ -42,7 +43,10 @@ function goNextPage() {
     if (currentLocation < maxLocation) {
         switch (currentLocation) {
             case 1:
-                openBook();
+                setTimeout(() => {
+
+                    openBook();
+                }, 400);
                 paper1.classList.add('flipped');
                 paper1.style.zIndex = 1;
                 break;
