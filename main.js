@@ -39,12 +39,12 @@ function closeBook(isAtBeginning) {
     nextBtn.style.transform = "translateX(0px)";
 };
 
+
 function goNextPage() {
     if (currentLocation < maxLocation) {
         switch (currentLocation) {
             case 1:
                 setTimeout(() => {
-
                     openBook();
                 }, 400);
                 paper1.classList.add('flipped');
@@ -73,6 +73,7 @@ function goNextPage() {
         currentLocation++;
     }
 };
+
 
 function goPrevPage() {
     if (currentLocation > 1) {

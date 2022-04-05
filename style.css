@@ -52,8 +52,12 @@ body {
 .cover{
     background-image: url(./img/menuCover.jpg);
     background-size: cover;
-
 }
+.paper1{
+    background-image: url(./img/paper.jpg);
+    background-size: cover;
+}
+
 .back{
     z-index: 0;
 }
@@ -122,4 +126,10 @@ i{
 }
 #p5{
     z-index: 1;
+}
+
+/* hidden */
+
+.hidden{
+    display: none;
 }
